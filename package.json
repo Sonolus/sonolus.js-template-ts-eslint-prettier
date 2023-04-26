@@ -8,6 +8,7 @@
     "dev": "sonolus-cli --dev",
     "type-check": "tsc -p . --noEmit",
     "lint": "eslint --ext .ts ./src",
+    "lint-fix": "eslint --ext .ts ./src --fix",
     "build": "sonolus-cli --build"
   },
   "devDependencies": {
