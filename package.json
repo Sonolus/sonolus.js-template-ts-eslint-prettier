@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "sonolus-cli --dev",
     "type-check": "tsc -p . --noEmit",
-    "lint": "eslint --ext .ts ./src/",
+    "lint": "eslint --ext .ts ./src",
     "build": "sonolus-cli --build"
   },
   "devDependencies": {
