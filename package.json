@@ -5,11 +5,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "sonolus-cli --dev",
-    "type-check": "tsc -p . --noEmit",
-    "lint": "eslint --ext .ts ./src",
-    "lint-fix": "eslint --ext .ts ./src --fix",
-    "build": "sonolus-cli --build"
+    "dev:play": "sonolus-cli --dev ./play/sonolus-cli.config.js",
+    "dev:tutorial": "sonolus-cli --dev ./tutorial/sonolus-cli.config.js",
+    "type-check": "tsc -p ./shared --noEmit && tsc -p ./play --noEmit && tsc -p ./tutorial --noEmit",
+    "lint": "eslint --ext .ts ./shared && eslint --ext .ts ./play && eslint --ext .ts ./tutorial",
+    "lint-fix": "eslint --ext .ts ./shared --fix && eslint --ext .ts ./play --fix && eslint --ext .ts ./tutorial --fix",
+    "build": "sonolus-cli --build ./play/sonolus-cli.config.js && sonolus-cli --build ./tutorial/sonolus-cli.config.js"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.3.0",
