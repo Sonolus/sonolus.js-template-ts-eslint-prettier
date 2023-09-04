@@ -41,6 +41,14 @@ Changes made to the project will be automatically detected and trigger rebuild.
 
 Temporary files and extraction artifacts can be found in `.dev`.
 
+## Format Code
+
+Run in project directory:
+
+```
+npm run format
+```
+
 ## Type Check
 
 Run in project directory:

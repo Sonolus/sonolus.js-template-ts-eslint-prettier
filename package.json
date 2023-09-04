@@ -8,6 +8,7 @@
     "dev:play": "sonolus-cli --dev ./play/sonolus-cli.config.js",
     "dev:tutorial": "sonolus-cli --dev ./tutorial/sonolus-cli.config.js",
     "type-check": "tsc -p ./shared --noEmit && tsc -p ./play --noEmit && tsc -p ./tutorial --noEmit",
+    "format": "prettier . --write",
     "lint": "eslint --ext .ts ./shared && eslint --ext .ts ./play && eslint --ext .ts ./tutorial",
     "lint-fix": "eslint --ext .ts ./shared --fix && eslint --ext .ts ./play --fix && eslint --ext .ts ./tutorial --fix",
     "build": "sonolus-cli --build ./play/sonolus-cli.config.js && sonolus-cli --build ./tutorial/sonolus-cli.config.js"
@@ -17,7 +18,6 @@
     "@typescript-eslint/parser": "^6.3.0",
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.1",
     "prettier-plugin-organize-imports": "^3.2.3",
     "sonolus-core": "~7.2.0",
