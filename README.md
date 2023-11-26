@@ -32,6 +32,10 @@ npm run dev:play
 ```
 
 ```
+npm run dev:watch
+```
+
+```
 npm run dev:preview
 ```
 
