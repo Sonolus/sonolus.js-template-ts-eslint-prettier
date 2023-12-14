@@ -12,4 +12,13 @@ module.exports = {
         'plugin:@typescript-eslint/stylistic-type-checked',
         'prettier',
     ],
+    rules: {
+        'no-restricted-properties': [
+            'error',
+            {
+                object: 'debug',
+                message: 'Debug calls should be removed from production.',
+            },
+        ],
+    },
 }
