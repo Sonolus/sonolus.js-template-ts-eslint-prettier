@@ -16,14 +16,14 @@
     "build": "sonolus-cli --build ./play && sonolus-cli --build ./watch && sonolus-cli --build ./preview && sonolus-cli --build ./tutorial"
   },
   "devDependencies": {
-    "@eslint/js": "^9.17.0",
-    "@sonolus/core": "~7.11.0",
-    "@sonolus/sonolus.js": "~9.5.3",
-    "eslint": "^9.17.0",
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.4.2",
+    "@eslint/js": "^9.21.0",
+    "@sonolus/core": "~7.12.0",
+    "@sonolus/sonolus.js": "~9.5.4",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "prettier": "^3.5.3",
     "prettier-plugin-organize-imports": "^4.1.0",
-    "typescript": "~5.7.2",
-    "typescript-eslint": "^8.19.0"
+    "typescript": "~5.8.2",
+    "typescript-eslint": "^8.26.0"
   }
 }
