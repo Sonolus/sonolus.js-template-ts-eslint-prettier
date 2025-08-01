@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
--   [Node.js](https://nodejs.org) (16+)
+-   [Node.js](https://nodejs.org)
 
 ## Recommended Setup
 
@@ -28,19 +28,19 @@ npm i
 Run in project directory:
 
 ```
-npm run dev:play
+npm run dev-play
 ```
 
 ```
-npm run dev:watch
+npm run dev-watch
 ```
 
 ```
-npm run dev:preview
+npm run dev-preview
 ```
 
 ```
-npm run dev:tutorial
+npm run dev-tutorial
 ```
 
 A dev server will be up and running. You can connect to it using Sonolus app and play test the level.
@@ -49,36 +49,32 @@ Changes made to the project will be automatically detected and trigger rebuild.
 
 Temporary files and extraction artifacts can be found in `.dev`.
 
-## Format Code
+## Check for Issues
 
 Run in project directory:
 
 ```
-npm run format
+npm run check-type
 ```
 
-## Type Check
+```
+npm run check-lint
+```
+
+```
+npm run check-format
+```
+
+## Fix Issues
 
 Run in project directory:
 
 ```
-npm run type-check
+npm run fix-lint
 ```
 
-## Lint
-
-Run in project directory:
-
 ```
-npm run lint
-```
-
-## Fix Linting Issues
-
-Run in project directory:
-
-```
-npm run lint-fix
+npm run fix-format
 ```
 
 ## Build
