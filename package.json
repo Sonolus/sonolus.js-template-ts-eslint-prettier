@@ -1,7 +1,7 @@
 {
-  "name": "sonolus.js-template-ts-eslint-prettier",
+  "name": "sonolus.js-template-ts-oxlint-oxfmt",
   "version": "1.5.1",
-  "description": "Sonolus.js Template (TS + ESLint + Prettier)",
+  "description": "Sonolus.js Template (TS + Oxlint + Oxfmt)",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,21 +10,18 @@
     "dev-preview": "sonolus-cli --dev ./preview",
     "dev-tutorial": "sonolus-cli --dev ./tutorial",
     "check-type": "tsc -p ./shared --noEmit && tsc -p ./play --noEmit && tsc -p ./watch --noEmit && tsc -p ./preview --noEmit && tsc -p ./tutorial --noEmit",
-    "check-lint": "eslint .",
-    "check-format": "prettier . --check",
-    "fix-lint": "eslint . --fix",
-    "fix-format": "prettier . --write",
+    "check-lint": "oxlint",
+    "check-format": "oxfmt --check",
+    "fix-lint": "oxlint --fix",
+    "fix-format": "oxfmt",
     "build": "sonolus-cli --build ./play && sonolus-cli --build ./watch && sonolus-cli --build ./preview && sonolus-cli --build ./tutorial"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
     "@sonolus/core": "~7.15.0",
     "@sonolus/sonolus.js": "~9.7.0",
-    "eslint": "^9.39.2",
-    "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.8.1",
-    "prettier-plugin-organize-imports": "^4.3.0",
-    "typescript": "~5.9.3",
-    "typescript-eslint": "^8.54.0"
+    "oxfmt": "^0.62.0",
+    "oxlint": "^1.77.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "typescript": "~5.9.3"
   }
 }
