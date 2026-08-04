@@ -1,6 +1,6 @@
 {
   "name": "sonolus.js-template-ts-oxlint-oxfmt",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Sonolus.js Template (TS + Oxlint + Oxfmt)",
   "private": true,
   "type": "module",
