@@ -1,20 +1,20 @@
-# Sonolus.js Template (TS + ESLint + Prettier)
+# Sonolus.js Template (TS + Oxlint + Oxfmt)
 
 ## Prerequisites
 
--   [Node.js](https://nodejs.org)
+- [Node.js](https://nodejs.org)
 
 ## Recommended Setup
 
--   [Visual Studio Code](https://code.visualstudio.com)
--   [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Oxc extension](https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode)
 
 ## Get Started
 
 To get this template, run (change `my-project` to desired name):
 
 ```
-npx degit Sonolus/sonolus.js-template-ts-eslint-prettier my-project
+npx degit Sonolus/sonolus.js-template-ts-oxlint-oxfmt my-project
 ```
 
 To install dependencies, run in project directory:
